@@ -12,7 +12,7 @@ public class P3_Task01_VariablesAndDataTypesInJava {
         char e;
 
         //valid initializations
-        pi=3.14;
+        pi=3.14f;
         d=20.22d;
         e='v';
 
@@ -66,14 +66,14 @@ public class P3_Task01_VariablesAndDataTypesInJava {
         System.out.println(n);
         System.out.println(o);
 
-        System.out.println(ABC.J);    //data + functions/methods
+       // System.out.println(ABC.J);    //data + functions/methods
         //ABC.display()
 
-        ABC obj1= new ABC;           //creation of new object
+        ABC obj1= new ABC();           //creation of new object
         System.out.println(obj1.i++);
         System.out.println(obj1.i);
 
-        ABC obj2= new ABC;           //creation of second object
+        ABC obj2= new ABC();           //creation of second object
         System.out.println(obj2.i);
 
         System.out.println(ABC.j++);
